@@ -1,0 +1,33 @@
+{
+	title: "Item Reporting Service",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "randomthings:enderletter"
+	},
+	x: 2.5d,
+	y: -1.5d,
+	shape: "octagon",
+	description: "Type \"TeuFox\" or \"OptiSar\" in the text box without the \" \".",
+	text: [
+		"Please input the offensive items in one of the 9 slots and I will create ways to sell said items for money through the FTB Quests Menu. Thank YOU ~TeuFox"
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "4459606f",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eee79c52",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:enderletter"
+		}
+	}]
+}

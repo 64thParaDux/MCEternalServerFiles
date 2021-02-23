@@ -1,0 +1,10 @@
+{
+	title: "Welcome OptiFox Networks.",
+	icon: "harvestcraft:epicbaconitem",
+	description: [
+		"Thank you for playing!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

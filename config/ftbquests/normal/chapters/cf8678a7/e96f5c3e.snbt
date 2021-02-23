@@ -1,0 +1,34 @@
+{
+	title: "Ender Mail",
+	x: 2.5d,
+	y: 0.5d,
+	description: "Quick Start to server postage.",
+	text: [
+		"Please buy and place a mail box in the world to be able to recieve mail.",
+		"",
+		"To use a letter you right click, fill out the username of the Recipient NOTE THIS IS CaSe SeNsItIvE!!!",
+		"",
+		"Shift right click to send. NOTE if you mess up the name it will be gone forever unless someone with said messed up name enters the server."
+	],
+	optional: true,
+	tasks: [{
+		uid: "a58befa7",
+		type: "ftbmoney:money",
+		value: 150L
+	}],
+	rewards: [{
+		uid: "ada663d0",
+		type: "item",
+		item: "randomthings:endermailbox"
+	},
+	{
+		uid: "55106810",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "randomthings:enderletter"
+		}
+	}]
+}

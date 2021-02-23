@@ -1,0 +1,53 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	shape: "gear",
+	size: 4.0d,
+	tasks: [{
+		uid: "d6a9d2b5",
+		type: "checkmark",
+		title: "Starter Kit",
+		icon: "harvestcraft:minerstewitem"
+	}],
+	rewards: [{
+		uid: "16aa4535",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:iron_paxel"
+		}
+	},
+	{
+		uid: "2ee66c7e",
+		type: "item",
+		item: "harvestcraft:minerstewitem",
+		count: 16
+	},
+	{
+		uid: "8ff8b76b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "theaurorian:aurorianslimeboots"
+		}
+	},
+	{
+		uid: "d15463ac",
+		type: "item",
+		item: "waystones:waystone"
+	},
+	{
+		uid: "a2f585db",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "66d7ebb1",
+		type: "random",
+		table: 13
+	}]
+}

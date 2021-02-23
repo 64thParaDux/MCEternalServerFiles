@@ -1,0 +1,45 @@
+{
+	version: 9,
+	default_reward_team: false,
+	default_consume_items: false,
+	default_autoclaim_rewards: "disabled",
+	default_quest_shape: "circle",
+	default_quest_disable_jei: false,
+	emergency_items: [{
+		item: "nuclearcraft:radaway"
+	},
+	{
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "actuallyadditions:iron_paxel"
+	},
+	{
+		id: "minecraft:splash_potion",
+		Count: 2b,
+		tag: {
+			Potion: "minecraft:long_fire_resistance"
+		}
+	},
+	{
+		item: "thebetweenlands:caving_rope 6"
+	},
+	{
+		item: "harvestcraft:minerstewitem 6"
+	},
+	{
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tconstruct:slime_boots"
+	}],
+	emergency_items_cooldown: "1m",
+	drop_loot_crates: true,
+	loot_crate_no_drop: {
+		passive: 4000,
+		monster: 600,
+		boss: 0
+	},
+	disable_gui: false,
+	grid_scale: 0.5d
+}
